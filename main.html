@@ -7,6 +7,52 @@
 </head>
 
 <body>
+	    <form action="#" method="post">
+    <fieldset>
+        
+        <legend>Car SignUp Form</legend>
+        <label for="Name">Name</label>
+        <input type="text" required id="name" placeholder="Name">
+         
+
+        <label for="Email">Email</label>
+        <input type="email" required id="email" placeholder="Email">
+
+        
+	        <input type="radio" name="gender" required id="gender_m" >
+        <input type="radio" required name="gender" id="gender_f" >
+        <label for="Gender">Gender</label>
+
+        <label for="cars">Choose a car:</label>
+<select name="cars" id="cars" form="carform"  required>
+  <option value="">--please choose an option </option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+
+<label for="Age">Age</label>
+<input type="number" required id="age" placeholder="Age">
+
+<label for="DOB">DOB</label>
+<input type="date" required id="dob" >
+
+
+<label for="DOB">DOB</label>
+<input type="tel"  id="tel" >
+
+<label for="Password">Password</label>
+<input type="password" required id="password" placeholder="Password">
+
+
+<label for="">I agree to the TOS</label>
+<input type="checkbox" required id="tos" >
+
+<button type="submit">Submit</button>
+
+   
+    </fieldset>
+</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
