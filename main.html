@@ -8,24 +8,22 @@
 
 <body>
 	    <form action="#" method="post">
-    <fieldset>
-        
-        <legend>Car SignUp Form</legend>
-        <label for="Name">Name</label>
+			
+        <label for="name">Name</label>
         <input type="text" required id="name" placeholder="Name">
          
 
-        <label for="Email">Email</label>
+        <label for="email">Email</label>
         <input type="email" required id="email" placeholder="Email">
 
-        <label for="Gender">Gender</label>
+        <label for="gender">Gender</label>
 	    <input type="radio" name="gender" required id="gender_m" >
-		<label for="Male">M</label>
+		<label for="male">M</label>
         <input type="radio" required name="gender" id="gender_f" >
 		<label for="female">F</label>
         
 
-        <label for="cars">Choose a car:</label>
+        <label for="cars">Car Brands</label>
 <select name="cars" id="cars" form="carform"  required>
   <option value="">--please choose an option </option>
   <option value="saab">Saab</option>
@@ -33,27 +31,27 @@
   <option value="audi">Audi</option>
 </select>
 
-<label for="Age">Age</label>
+<label for="age">Age</label>
 <input type="number" required id="age" placeholder="Age">
 
-<label for="DOB">DOB</label>
+<label for="dob">DOB</label>
 <input type="date" required id="dob" >
 
 
-<label for="Tel">Tel</label>
-<input type="tel"  id="tel" >
+<label for="tel">Phone Number </label>
+	<input type="tel"  id="tel" placeholder="xxx-xxx-xxxx" >
 
-<label for="Password">Password</label>
-<input type="password" required id="password" placeholder="Password">
+<label for="password">Password</label>
+<input type="Password" required id="password" placeholder="Password">
 
 
-<label for="">I agree to the TOS</label>
+<label for="tos">I agree to the TOS</label>
 <input type="checkbox" required id="tos" >
 
 <button type="submit">Submit</button>
 
    
-    </fieldset>
+
 </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
